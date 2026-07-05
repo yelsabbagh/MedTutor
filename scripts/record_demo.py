@@ -14,6 +14,8 @@ DEMO_DIR = ROOT / "demo_assets"
 RAW_DIR = DEMO_DIR / "raw_video"
 MP4_PATH = DEMO_DIR / "medtutor_demo_captioned.mp4"
 WEBM_PATH = DEMO_DIR / "medtutor_demo_captioned.webm"
+VIDEO_WIDTH = 1920
+VIDEO_HEIGHT = 1080
 
 
 def main() -> None:
@@ -25,9 +27,10 @@ def main() -> None:
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
         context = browser.new_context(
-            viewport={"width": 1280, "height": 720},
+            viewport={"width": VIDEO_WIDTH, "height": VIDEO_HEIGHT},
+            device_scale_factor=1,
             record_video_dir=str(RAW_DIR),
-            record_video_size={"width": 1280, "height": 720},
+            record_video_size={"width": VIDEO_WIDTH, "height": VIDEO_HEIGHT},
         )
         page = context.new_page()
         page.goto(APP_URL, wait_until="domcontentloaded")
@@ -109,16 +112,16 @@ def install_caption(page: Page) -> None:
               position: fixed;
               left: 32px;
               right: 32px;
-              bottom: 28px;
+              bottom: 36px;
               z-index: 2147483647;
               background: rgba(15, 23, 42, 0.94);
               color: white;
               border: 1px solid rgba(255, 255, 255, 0.2);
               border-radius: 8px;
               box-shadow: 0 16px 36px rgba(0, 0, 0, 0.28);
-              padding: 18px 22px;
+              padding: 22px 28px;
               font-family: Inter, Segoe UI, Arial, sans-serif;
-              font-size: 24px;
+              font-size: 34px;
               line-height: 1.28;
               font-weight: 650;
               letter-spacing: 0;
@@ -160,6 +163,10 @@ def convert_to_mp4(source: Path, target: Path) -> None:
         str(source),
         "-c:v",
         "libx264",
+        "-preset",
+        "slow",
+        "-crf",
+        "17",
         "-pix_fmt",
         "yuv420p",
         "-movflags",
