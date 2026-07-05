@@ -4,4 +4,6 @@ __pycache__/
 .pytest_cache/
 *.pyc
 outputs/*.tmp
-
+demo_assets/raw_video/
+demo_assets/*.webm
+demo_assets/preview_*.png
