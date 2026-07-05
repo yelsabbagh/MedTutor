@@ -1,0 +1,22 @@
+# Respiratory Medicine Lecture: COPD and Acute Dyspnea
+
+Chronic obstructive pulmonary disease, or COPD, is characterized by persistent airflow limitation that is usually progressive and associated with an enhanced chronic inflammatory response in the airways and lungs.
+
+The most important risk factor for COPD is cigarette smoking, although biomass fuel exposure, occupational dust, air pollution, and alpha-1 antitrypsin deficiency can contribute.
+
+Typical symptoms include chronic cough, sputum production, exertional dyspnea, wheeze, and recurrent respiratory infections. Symptoms often develop gradually and may be under-recognized until lung function is significantly reduced.
+
+Spirometry is required to confirm COPD. A post-bronchodilator FEV1/FVC ratio below 0.70 supports persistent airflow limitation. Chest X-ray may help exclude alternative diagnoses but does not confirm COPD by itself.
+
+Exacerbations are episodes of worsening dyspnea, cough, or sputum beyond normal daily variation. Common triggers include viral infection, bacterial infection, and environmental pollution.
+
+Initial management of stable COPD includes smoking cessation, vaccination, inhaled bronchodilator therapy, pulmonary rehabilitation, and education about inhaler technique. Long-term oxygen therapy is reserved for selected patients with chronic severe hypoxemia.
+
+Acute severe dyspnea requires assessment of airway, breathing, circulation, oxygen saturation, respiratory rate, mental status, and signs of fatigue. Red flags include cyanosis, silent chest, hypotension, confusion, and inability to speak full sentences.
+
+Differential diagnosis for acute dyspnea includes COPD exacerbation, asthma, pneumonia, pulmonary embolism, heart failure, pneumothorax, and metabolic acidosis.
+
+Initial investigations may include pulse oximetry, arterial blood gas when severe, chest X-ray, ECG, full blood count, C-reactive protein, urea and electrolytes, and sputum culture when infection is suspected.
+
+Educational safety note: lecture-based exam preparation should not replace clinical judgment, local guidelines, or supervised patient care.
+

@@ -1,0 +1,24 @@
+flowchart TD
+    UI["User UI: Streamlit"]
+    Coordinator["Coordinator Agent"]
+    Retrieval["Lecture Retrieval Agent"]
+    Blueprint["Exam Blueprint Agent"]
+    MCQ["MCQ Generator Agent"]
+    OSCE["OSCE Examiner Agent"]
+    Validator["Medical Safety Validator Agent"]
+    Exporter["Export Agent"]
+    Tools["MCP-style Tool Server: search_lecture, get_chunk, validate_no_phi, export"]
+    Output["Final Output: JSON, Markdown, CSV"]
+
+    UI --> Coordinator
+    Coordinator --> Retrieval
+    Retrieval --> Tools
+    Coordinator --> Blueprint
+    Coordinator --> MCQ
+    Coordinator --> OSCE
+    MCQ --> Validator
+    OSCE --> Validator
+    Validator --> Exporter
+    Exporter --> Tools
+    Exporter --> Output
+
