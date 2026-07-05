@@ -36,5 +36,157 @@
       "chunk_002 (sample_respiratory_lecture.txt)"
     ],
     "difficulty": "easy"
+  },
+  {
+    "id": "mcq_002",
+    "question": "A medical student is reviewing Therapy. Which option is best supported by the provided lecture?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Initial management of stable COPD includes smoking cessation, vaccination, inhaled bronchodilator therapy, pulmonary rehabilitation, and education about inhaler technique, but this is unrelated to exam preparation."
+      },
+      {
+        "label": "B",
+        "text": "The lecture states the opposite of this key point."
+      },
+      {
+        "label": "C",
+        "text": "Initial management of stable COPD includes smoking cessation, vaccination, inhaled bronchodilator therapy, pulmonary rehabilitation, and education about inhaler technique."
+      },
+      {
+        "label": "D",
+        "text": "The main issue is excluded because it is never clinically relevant."
+      },
+      {
+        "label": "E",
+        "text": "The safest answer is to choose an unsupported diagnosis without source evidence."
+      }
+    ],
+    "correct_answer": "C",
+    "explanations": {
+      "A": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "B": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "C": "Correct. This option is directly grounded in the lecture: Initial management of stable COPD includes smoking cessation, vaccination, inhaled bronchodilator therapy, pulmonary rehabilitation, and education about inhaler technique.",
+      "D": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "E": "Incorrect. This distractor is not supported by the retrieved lecture evidence."
+    },
+    "source_chunks": [
+      "chunk_002 (sample_respiratory_lecture.txt)"
+    ],
+    "difficulty": "moderate"
+  },
+  {
+    "id": "mcq_003",
+    "question": "A medical student is reviewing the lecture. Which option is best supported by the provided lecture?",
+    "options": [
+      {
+        "label": "A",
+        "text": "The most important risk factor for COPD is cigarette smoking, although biomass fuel exposure, occupational dust, air pollution, and alpha-1 antitrypsin deficiency can contribute, but this is unrelated to exam preparation."
+      },
+      {
+        "label": "B",
+        "text": "The lecture states the opposite of this key point."
+      },
+      {
+        "label": "C",
+        "text": "The main issue is excluded because it is never clinically relevant."
+      },
+      {
+        "label": "D",
+        "text": "The most important risk factor for COPD is cigarette smoking, although biomass fuel exposure, occupational dust, air pollution, and alpha-1 antitrypsin deficiency can contribute."
+      },
+      {
+        "label": "E",
+        "text": "The safest answer is to choose an unsupported diagnosis without source evidence."
+      }
+    ],
+    "correct_answer": "D",
+    "explanations": {
+      "A": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "B": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "C": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "D": "Correct. This option is directly grounded in the lecture: The most important risk factor for COPD is cigarette smoking, although biomass fuel exposure, occupational dust, air pollution, and alpha-1 antitrypsin deficiency can contribute.",
+      "E": "Incorrect. This distractor is not supported by the retrieved lecture evidence."
+    },
+    "source_chunks": [
+      "chunk_001 (sample_respiratory_lecture.txt)"
+    ],
+    "difficulty": "moderate"
+  },
+  {
+    "id": "mcq_004",
+    "question": "A medical student is reviewing Dyspnea. Which option is best supported by the provided lecture?",
+    "options": [
+      {
+        "label": "A",
+        "text": "# Respiratory Medicine Lecture: COPD and Acute Dyspnea\n\nChronic obstructive pulmonary disease, or COPD, is characterized by persistent airflow limitation that is usually progressive and associated with an enhanced chronic inflammatory response in the airways and lungs."
+      },
+      {
+        "label": "B",
+        "text": "# Respiratory Medicine Lecture: COPD and Acute Dyspnea\n\nChronic obstructive pulmonary disease, or COPD, is characterized by persistent airflow limitation that is usually progressive and associated with an enhanced chronic inflammatory response in the airways and lungs, but this is unrelated to exam preparation."
+      },
+      {
+        "label": "C",
+        "text": "The lecture states the opposite of this key point."
+      },
+      {
+        "label": "D",
+        "text": "The main issue is excluded because it is never clinically relevant."
+      },
+      {
+        "label": "E",
+        "text": "The safest answer is to choose an unsupported diagnosis without source evidence."
+      }
+    ],
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Correct. This option is directly grounded in the lecture: # Respiratory Medicine Lecture: COPD and Acute Dyspnea\n\nChronic obstructive pulmonary disease, or COPD, is characterized by persistent airflow limitation that is usually progressive and associated with an enhanced chronic inflammatory response in the airways and lungs.",
+      "B": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "C": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "D": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "E": "Incorrect. This distractor is not supported by the retrieved lecture evidence."
+    },
+    "source_chunks": [
+      "chunk_001 (sample_respiratory_lecture.txt)"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "id": "mcq_005",
+    "question": "A medical student is reviewing Dyspnea. Which option is best supported by the provided lecture?",
+    "options": [
+      {
+        "label": "A",
+        "text": "Differential diagnosis for acute dyspnea includes COPD exacerbation, asthma, pneumonia, pulmonary embolism, heart failure, pneumothorax, and metabolic acidosis, but this is unrelated to exam preparation."
+      },
+      {
+        "label": "B",
+        "text": "The lecture states the opposite of this key point."
+      },
+      {
+        "label": "C",
+        "text": "The main issue is excluded because it is never clinically relevant."
+      },
+      {
+        "label": "D",
+        "text": "The safest answer is to choose an unsupported diagnosis without source evidence."
+      },
+      {
+        "label": "E",
+        "text": "Differential diagnosis for acute dyspnea includes COPD exacerbation, asthma, pneumonia, pulmonary embolism, heart failure, pneumothorax, and metabolic acidosis."
+      }
+    ],
+    "correct_answer": "E",
+    "explanations": {
+      "A": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "B": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "C": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "D": "Incorrect. This distractor is not supported by the retrieved lecture evidence.",
+      "E": "Correct. This option is directly grounded in the lecture: Differential diagnosis for acute dyspnea includes COPD exacerbation, asthma, pneumonia, pulmonary embolism, heart failure, pneumothorax, and metabolic acidosis."
+    },
+    "source_chunks": [
+      "chunk_002 (sample_respiratory_lecture.txt)"
+    ],
+    "difficulty": "moderate"
   }
 ]

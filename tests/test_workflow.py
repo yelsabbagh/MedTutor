@@ -3,12 +3,20 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import pytest
+
 from agents.coordinator_agent import CoordinatorAgent
+from tools import export_tools
 from tools.lecture_tools import chunk_text, search_lecture
 from tools.security_tools import run_security_checks
 
 
 SAMPLE = Path("sample_data/sample_respiratory_lecture.txt").read_text(encoding="utf-8")
+
+
+@pytest.fixture(autouse=True)
+def isolated_output_dir(tmp_path: Path) -> None:
+    export_tools.OUTPUT_DIR = tmp_path
 
 
 def test_chunk_and_search_returns_relevant_content() -> None:
